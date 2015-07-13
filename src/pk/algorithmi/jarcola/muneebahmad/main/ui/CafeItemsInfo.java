@@ -1,0 +1,55 @@
+/**
+ * copyright ©2013-2014 ®Algorithmi™.
+ *
+ * @author ¶muneebahmad¶ (ahmadgallian@yahoo.com) 
+ * NetBeans IDE http://www.netbeans.org
+ *
+ * The following source - code IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ * **/
+
+package pk.algorithmi.jarcola.muneebahmad.main.ui;
+
+/**
+ *
+ * @author muneebahmad
+ */
+public class CafeItemsInfo {
+
+    public String itemName;
+    public String itemPrice;
+    
+    public CafeItemsInfo() {}
+    
+    /**
+     * 
+     * @param itemName
+     * @param itemPrice 
+     */
+    public CafeItemsInfo(String itemName, String itemPrice) {
+        this.itemName = itemName;
+        this.itemPrice = itemPrice;
+    }
+    
+    /**
+     * 
+     * @return 
+     */
+    public String getItemName() {
+        return this.itemName;
+    }
+    
+    /**
+     * 
+     * @return 
+     */
+    public String getItemPrice() {
+        return this.itemPrice;
+    }
+    
+}/** end class. */
